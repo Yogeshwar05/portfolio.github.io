@@ -1,0 +1,76 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: sans-serif;
+}
+@keyframes Fade_in {
+    0%{
+       opacity: 0; 
+       transform: scale(0);
+    }
+    25%{
+        opacity: 0.25;
+        transform: scale(0.25);
+
+    }
+    50%{
+        opacity: 0.5;
+        transform: scale(0.5);
+
+    }
+    75%{
+        opacity: 0.75;
+        transform: scale(0.75);
+
+    }
+    100%{
+        opacity: 1;
+        transform: scale(1);
+
+    }
+}
+.Header, .mainHeading{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-flow: column;
+}
+.Header{
+    background-color: #272727;
+    color: rgb(255, 183, 50);
+    height: 25rem;
+    width: 100vw;
+}
+.mainHeading{
+    width: 75vw;
+    background-color: #272727;
+    margin: auto;
+    height: 20rem;
+    box-shadow: 0.25rem 0.25rem 5rem black;
+    transform-origin: top;
+    animation-timing-function: linear;
+    animation-name: Fade_in;
+    animation-duration: 1s;    
+
+}
+.heading{
+    margin:0px 0px 1rem 2rem;
+}
+.h3{
+    margin-top: 1rem;
+}
+.naam{
+    color: rgb(255, 255, 255);
+}
+.orgName{
+    color: rgb(113, 255, 113);
+}
+.hello{
+    color: rgb(200, 140, 255);
+}
+.programmingLanguages{
+    color: rgb(255, 103, 103);
+}
+.python{
+    color: rgb(0, 255, 191);
+}
